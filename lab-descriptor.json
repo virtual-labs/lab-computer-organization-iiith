@@ -1,73 +1,77 @@
 {
-    "broadArea": 
-  {
-        "name": "Computer Science and Engineering",
-        "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
+  "broadArea": {
+    "name": "Computer Science and Engineering",
+    "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
   },
-    "lab": "Computer Organisation",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "IIITH",
-    "baseUrl": "cse11-iiith.vlabs.ac.in",
-    "introduction": "Computer science is all about providing abstractions and their efficient implementation. An abstraction provides a logical view of a certain service or a resource by giving a well-defined black-box model, its associated properties and hides the internal details of the black-box. For example, the design and implementation of a processor are abstracted away through the Instruction Set Architecture (ISA) of the processor. Further high-level programming languages like C, C++ abstract away the ISA of a processor by allowing the programmers to express their intent using language constructs like for-loops, while-loops, etc. Wherever we use abstractions we have to rely on someone for efficient realization of those abstractions. In the case of ISA of a processor, we rely on the processor designer, and in the case of high-level programming languages, we rely on a compiler. </br></br>In this lab, the first two experiments deal with the two primitive data abstractions, integers, and floating-point numbers. We look at various approaches for representing integers and floating-point numbers in binary and, their pros and cons. The next four experiments involve writing assembly language programs using MIPS and ARM ISA. In these experiments, we learn how to map high-level language constructs to a sequence of assembly language instructions. In the last experiment of this lab, we shall study how to design a processor for a subset of MIPS ISA using the Single Cycle Per Instruction approach. The idea here is that we would like to understand how we can map high-level language constructs to assembly programs, followed by that how to realize the assembly instructions using logic gates as building blocks.</br></br>Processor, Memory, and I/O Devices are three major subsystems in a computer. Cache memory plays a major role in bridging the speed mismatch between a processor and the associated main memory module. We have three experiments on cache memories to illustrate various possible cache organizations and the impact of cache organizations on program performance. We have one more experiment illustrating the concept of Virtual Memory.</br></br>Please note:</br></br>- This lab requires few Software Dependencies to run the Simulations</br>   1. Adobe Flash Plugin, Java1.7, Java3D 1.5.2 (The Java 3D API enables the creation of three-dimensional graphics applications and Internet-based 3D applets)</br>   2. Browsers Firefox 50 and its below versions, internet explorer.</br>   3. IcedTea Plugin for Linux Operating System.</br></br>- We recommend the following for the smooth running of these simulations</br>   1. Install Adobe Flash Plugin - This will enable you to run the experiments that need Flash support. Please follow the  <a  href='https://docs.google.com/document/d/0B_3qEAmTcWVJTzk5R1J6QXhVNjQ/edit?resourcekey=0-perEjVF4ne7tSM6tBYhGew'>link</a> to install the Flash Plugin</br>   2. Install VirtualBox - Virtual Labs offers a free download of a customized VirtualBox with the required pre-installed software dependencies(Java 1.7, Java3D-1.5.2, IcedTea Plugin, and Adobe Flash Plugin). Please follow the <a href='https://docs.google.com/document/d/1mX0YMtFk4Dxn_vQBJmUJ8pIOPE2hVf6AscJMdLWd9k8'>link</a> to download, install and use  VirtualBox for Virtual Labs.",
-    "experiments": [
+  "lab": "Computer Organisation",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "IIITH",
+  "baseUrl": "cse11-iiith.vlabs.ac.in",
+  "introduction": "Computer science is all about providing abstractions and their efficient implementation. An abstraction provides a logical view of a certain service or a resource by giving a well-defined black-box model, its associated properties and hides the internal details of the black-box. For example, the design and implementation of a processor are abstracted away through the Instruction Set Architecture (ISA) of the processor. Further high-level programming languages like C, C++ abstract away the ISA of a processor by allowing the programmers to express their intent using language constructs like for-loops, while-loops, etc. Wherever we use abstractions we have to rely on someone for efficient realization of those abstractions. In the case of ISA of a processor, we rely on the processor designer, and in the case of high-level programming languages, we rely on a compiler. </br></br>In this lab, the first two experiments deal with the two primitive data abstractions, integers, and floating-point numbers. We look at various approaches for representing integers and floating-point numbers in binary and, their pros and cons. The next four experiments involve writing assembly language programs using MIPS and ARM ISA. In these experiments, we learn how to map high-level language constructs to a sequence of assembly language instructions. In the last experiment of this lab, we shall study how to design a processor for a subset of MIPS ISA using the Single Cycle Per Instruction approach. The idea here is that we would like to understand how we can map high-level language constructs to assembly programs, followed by that how to realize the assembly instructions using logic gates as building blocks.</br></br>Processor, Memory, and I/O Devices are three major subsystems in a computer. Cache memory plays a major role in bridging the speed mismatch between a processor and the associated main memory module. We have three experiments on cache memories to illustrate various possible cache organizations and the impact of cache organizations on program performance. We have one more experiment illustrating the concept of Virtual Memory.</br></br>Please note:</br></br>- This lab requires few Software Dependencies to run the Simulations</br>   1. Adobe Flash Plugin, Java1.7, Java3D 1.5.2 (The Java 3D API enables the creation of three-dimensional graphics applications and Internet-based 3D applets)</br>   2. Browsers Firefox 50 and its below versions, internet explorer.</br>   3. IcedTea Plugin for Linux Operating System.</br></br>- We recommend the following for the smooth running of these simulations</br>   1. Install Adobe Flash Plugin - This will enable you to run the experiments that need Flash support. Please follow the  <a  href='https://docs.google.com/document/d/0B_3qEAmTcWVJTzk5R1J6QXhVNjQ/edit?resourcekey=0-perEjVF4ne7tSM6tBYhGew'>link</a> to install the Flash Plugin</br>   2. Install VirtualBox - Virtual Labs offers a free download of a customized VirtualBox with the required pre-installed software dependencies(Java 1.7, Java3D-1.5.2, IcedTea Plugin, and Adobe Flash Plugin). Please follow the <a href='https://docs.google.com/document/d/1mX0YMtFk4Dxn_vQBJmUJ8pIOPE2hVf6AscJMdLWd9k8'>link</a> to download, install and use  VirtualBox for Virtual Labs.",
+  "experiments": [
     {
       "name": "Representation of Integers and their Arithmetic",
       "short-name": "integers-arithmetic",
       "repo": "https://github.com/virtual-labs/exp-integers-arithmetic-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Representation of Floating Point Numbers and their Arithmetic",
       "short-name": "floating-point-numbers",
       "repo": "https://github.com/virtual-labs/exp-floating-point-numbers-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Virtual Memory",
       "short-name": "virtual-memory",
       "repo": "https://github.com/virtual-labs/exp-virtual-memory-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "MIPS Assembly Language Programming - 1",
       "short-name": "mips1",
       "repo": "https://github.com/virtual-labs/exp-mips1-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "ARM Assembly Language Programming - 1",
       "short-name": "arm1",
       "repo": "https://github.com/virtual-labs/exp-arm1-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "ARM Assembly Language Programming - 2",
       "short-name": "arm2",
       "repo": "https://github.com/virtual-labs/exp-arm2-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Single Cycle MIPS CPU",
       "short-name": "single-cycle-mips",
       "repo": "https://github.com/virtual-labs/exp-single-cycle-mips-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     }
-    ],
-    "targetAudience": {
-        "UG": ["B. Tech./ B.E in Computer Science & Information Technology"],
-        "PG": ["M. Tech in Computer Science"]
-    },
-    "objective": "To determine the various courses of computer organization.",
-    "courseAlignment": {
-        "description": "",
-        "universities": ["Introductory level courses on digital logic and programming are essential prerequisites for this course. No prior experience with data structures is required."]
-    }
+  ],
+  "targetAudience": {
+    "UG": ["B. Tech./ B.E in Computer Science & Information Technology"],
+    "PG": ["M. Tech in Computer Science"]
+  },
+  "objective": "To determine the various courses of computer organization.",
+  "courseAlignment": {
+    "description": "",
+    "universities": [
+      "Introductory level courses on digital logic and programming are essential prerequisites for this course. No prior experience with data structures is required."
+    ]
+  },
+  "exp_name": "Single Cycle MIPS CPU",
+  "exp_short_name": "single-cycle-mips",
+  "version": "v0.1.0"
 }
