@@ -14,7 +14,7 @@
       "name": "Representation of Integers and their Arithmetic",
       "short-name": "integers-arithmetic",
       "repo": "https://github.com/virtual-labs/exp-integers-arithmetic-iiith",
-      "tag": "v1.0.1",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
@@ -28,35 +28,35 @@
       "name": "Virtual Memory",
       "short-name": "virtual-memory",
       "repo": "https://github.com/virtual-labs/exp-virtual-memory-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "MIPS Assembly Language Programming - 1",
       "short-name": "mips1",
       "repo": "https://github.com/virtual-labs/exp-mips1-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "ARM Assembly Language Programming - 1",
       "short-name": "arm1",
       "repo": "https://github.com/virtual-labs/exp-arm1-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "ARM Assembly Language Programming - 2",
       "short-name": "arm2",
       "repo": "https://github.com/virtual-labs/exp-arm2-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "Single Cycle MIPS CPU",
       "short-name": "single-cycle-mips",
       "repo": "https://github.com/virtual-labs/exp-single-cycle-mips-iiith",
-      "tag": "v1.0.2",
+      "tag": "v1.0.3",
       "deploy": true
     }
   ],
@@ -73,5 +73,5 @@
   },
   "exp_name": "Single Cycle MIPS CPU",
   "exp_short_name": "single-cycle-mips",
-  "version": "v0.3.0"
+  "version": "v0.4.0"
 }
