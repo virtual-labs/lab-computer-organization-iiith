@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Computer Science and Engineering",
-    "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
+    "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering",
+    "code":"CSE"
   },
   "lab": "Computer Organisation",
   "deployLab": true,
@@ -70,8 +71,5 @@
     "universities": [
       "Introductory level courses on digital logic and programming are essential prerequisites for this course. No prior experience with data structures is required."
     ]
-  },
-  "exp_name": "Single Cycle MIPS CPU",
-  "exp_short_name": "single-cycle-mips",
-  "version": "v0.4.0"
+  }
 }
